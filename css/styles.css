@@ -1,0 +1,120 @@
+@font-face {
+  font-display: swap;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/roboto-v32-latin-regular.woff2') format('woff2'); /
+}
+@font-face {
+  font-display: swap; 
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  src: url('../fonts/roboto-v32-latin-900.woff2') format('woff2'); 
+}
+:root {
+  --color-brand-light: #2b7fff;
+  --color-brand-dark: #011c44;
+  --color-primary-light: #fff;
+  --color-primary-dark: #4a4a4a;
+  --color-primnary-black: #000;
+}
+/* Base */
+body {
+  color: var(--color-brand-dark);
+  line-height: 1.5;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+}
+.section-title {
+  font-family: "Play", sans-serif;
+  font-weight: 700;
+  font-size: 64px;
+  text-align: center;
+}
+.ul {
+  list-style-type: none;
+}
+
+/* Link */
+.link {
+  color: var(--color-primary-light);
+  line-height: 1.5;
+  text-decoration: none;
+}
+.link:hover {
+  color: var(--color-brand-dark);
+  font-weight: 700;
+  font-size: 18px;
+}
+/* Button */
+.button {
+  background: var(--color-brand-light);
+  border-radius: 32px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: var(--color-primary-light);
+  cursor: pointer;
+}
+.button:hover {
+  background-color: transparent;
+  color: var(--color-brand-dark);
+}
+
+/* Hero section*/
+.text-main {
+  font-size: 18px;
+  font-weight: 400;
+}
+.hero-title {
+  color: var(--color-brand-light);
+  font-family: "Play";
+  text-align: left;
+  font-size: 140px;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+.text-form {
+  color: var(--color-primary-dark);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+/* Perevtilyujsya */
+
+.section-title .accent {
+  color: var(--color-brand-light);
+  font-family: "Play"
+}
+.text .brand {
+  font-weight: 600;
+  text-transform: capitalize;
+}
+/* Why people choose us */
+
+.text-description {
+  font-weight: 400;
+  font-size: 18px;
+  color: var(--color-primnary-black);
+}
+/* Our procedures */
+.section-title-secondary {
+  color: var(--color-primary-light);
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 1.2;
+  font-family: "Play"
+}
+.section-title-secondary .accent {
+  color: var(--color-brand-light);
+  font-family: "Play"
+}
+/* How to find us */
+.politic {
+font-weight: 400;
+font-size: 12px; 
+line-height: 1.5;
+}
